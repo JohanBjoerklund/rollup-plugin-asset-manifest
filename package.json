@@ -1,0 +1,16 @@
+{
+  "name": "rollup-plugin-asset-manifest",
+  "version": "0.1.0",
+  "description": "Simple convention based asset manifest generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asset",
+    "manifest",
+    "rollup"
+  ],
+  "author": "Johan Björklund",
+  "license": "ISC"
+}
