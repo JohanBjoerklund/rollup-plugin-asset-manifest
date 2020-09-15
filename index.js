@@ -10,7 +10,7 @@ const generate = async (params, options, bundle) => {
   }`
 }
 
-export default function(params = { manifestKey = 'bundle' }) {
+module.exports = function(params = { manifestKey: 'bundle' }) {
   return {
     name: 'rollup-plugin-asset-manifest',
     generateBundle: async function(options, bundle) {
