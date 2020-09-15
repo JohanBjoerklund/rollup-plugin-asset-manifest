@@ -6,11 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohanBjoerklund/rollup-plugin-asset-manifest.git"
+  },
+  "homepage": "https://github.com/JohanBjoerklund/rollup-plugin-asset-manifest#readme",
   "keywords": [
     "asset",
     "manifest",
     "rollup"
   ],
+  "peerDependencies": {
+    "rollup": "^2.0.0"
+  },
   "author": "Johan Björklund",
   "license": "ISC"
 }
